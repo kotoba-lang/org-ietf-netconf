@@ -6,7 +6,7 @@
 {:paths ["src"]
  :deps {org.clojure/clojure {:mvn/version "1.11.1"}
         kotoba-lang/xml
-        {:git/url "git@github.com:kotoba-lang/xml"
+        {:git/url "https://github.com/kotoba-lang/xml.git"
          :git/sha "86f4b9cb9bbc48e823b6f9ef2981da78a525505b"
          :deps/root "."}}
  :aliases
