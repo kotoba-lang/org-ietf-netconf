@@ -19,7 +19,7 @@
   (RFC 7950) and OPAQUE to this codec — see netconf.operations and the
   README's YANG-scoping note. Callers pass already-built hiccup for it;
   this namespace never inspects it."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [xml.core :as xml]
             [xml.parse :as parse]))
 
