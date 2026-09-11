@@ -158,7 +158,7 @@ whitespace inside the value.
 ## Verify
 
 ```sh
-clojure -M:test
+kbb -M:test
 ```
 
 ## License
