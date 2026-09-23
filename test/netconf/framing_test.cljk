@@ -14,7 +14,7 @@
   workspace's own org-modbus/org-ietf-websocket/org-ietf-argon2 READMEs
   each record hitting exactly this idiom in one day; `netconf.bytes`
   exists specifically so this file doesn't repeat it a fourth time."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [netconf.bytes :as b]
             [netconf.framing :as f]))
 
