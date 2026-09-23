@@ -4,7 +4,7 @@
   throughout, matching the RFC's own convention of reusing 101 across
   examples; XML is compact — no inserted whitespace — see
   netconf.message's docstring for why)."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [netconf.message :as msg]
             [netconf.operations :as op]))
 

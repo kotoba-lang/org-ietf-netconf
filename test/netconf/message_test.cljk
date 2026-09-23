@@ -1,7 +1,7 @@
 (ns netconf.message-test
   "RFC 6241 message layer: <hello> (§8.1), <rpc> (§4.1), <rpc-reply>
   (§4.2), <rpc-error> (§4.3 + Appendix A)."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [netconf.message :as msg]
             [xml.parse :as parse]))
 
